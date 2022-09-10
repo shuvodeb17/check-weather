@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500&family=Ubuntu:ital,wght@0,300;0,400;1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+#wraper-img img {
+  width: 100%;
+
+  height: 100vh;
+
+  filter: blur(2px) brightness(0.6);
+
+  position: absolute;
+}
+.container {
+  text-align: center;
+}
+input {
+  width: 65%;
+  margin-top: 6%;
+  border-radius: 2px;
+  border: none;
+  padding: 5px 11px;
+  outline: none;
+}
+button {
+  width: 100px;
+  padding: 6px 11px;
+  border-radius: 5px;
+  background-color: #ee4446;
+  color: #fff;
+  transition: all 0.3s;
+  border: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+.main {
+  margin: auto;
+  position: relative;
+  top: 0;
+  color: #fff;
+}
+button:hover {
+  background-color: #9c0205;
+}
+.clody {
+  display: block;
+  width: 82px;
+  margin: auto;
+  margin-top: 9%;
+  margin-bottom: -2rem;
+}
+h3 {
+  text-align: center;
+  margin-top: 10%;
+  font-size: 2rem;
+}
+p {
+  text-align: center;
+}
+span {
+  font-size: 4rem;
+}
+h4 {
+  text-align: center;
+  font-size: 1.4rem;
+}
